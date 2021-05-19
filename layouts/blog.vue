@@ -5,6 +5,13 @@
   </div>
 </template>
 
+<script lang="ts">
+	import Vue from "vue";
+	export default Vue.extend({
+		middleware: 'test'
+	})
+</script>
+
 <style>
 	.title {
 		text-align: center;

@@ -1,3 +1,4 @@
+import router from './router'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -44,5 +45,10 @@ export default {
     transpile: [/^element-ui/],
   },
 
-  layoutTransition: 'test'
+  layoutTransition: 'test',
+
+  // router
+  router: {
+    middleware: 'test'
+  }
 }
